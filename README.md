@@ -1,68 +1,61 @@
-🧩 OOPS Banner App
-📌 Overview
+# OOPS Banner App
 
-The OOPS Banner App is a console-based Java application designed to demonstrate the step-by-step application of Object-Oriented Programming (OOPS) concepts through controlled refactoring.
+## Overview
+The OOPS Banner App is a console-based Java application developed to demonstrate the progressive application of Object-Oriented Programming (OOPS) principles through structured refactoring.
 
-The application renders the word “OOPS” as an ASCII banner.
-Each use case (UC1 → UC8) progressively improves the internal design of the same application without changing the output, ensuring clean evolution from basic logic to a modular, scalable architecture.
+The application renders the word "OOPS" as an ASCII banner. Each use case (UC1 to UC8) improves the internal code structure while maintaining the same console output, ensuring a clear evolution from basic implementation to a modular and scalable design.
 
-🎯 Objectives
+---
 
-Build a console-only Java application
+## Objectives
+- Develop a pure console-based Java application
+- Render an ASCII banner for the word "OOPS"
+- Apply OOPS concepts incrementally
+- Refactor the same codebase across multiple use cases
+- Follow industry-standard GitFlow practices
+- Maintain a clean and traceable commit history
 
-Render an ASCII banner for the word OOPS
+---
 
-Apply OOPS principles incrementally through refactoring
+## Technologies Used
+- Java
+- IntelliJ IDEA
+- Git
+- GitFlow
+- GitHub
 
-Maintain identical output across all use cases
+---
 
-Practice industry-standard GitFlow branching
+## Use Case Progression (UC1 to UC8)
 
-Maintain clean, traceable commit history
+The application is implemented sequentially. Each use case refactors the previous implementation.
 
-🛠️ Technologies Used
+| Use Case | Description |
+|---------|-------------|
+| UC1 | Basic console output |
+| UC2 | Banner rendering logic |
+| UC3 | String joining and formatting |
+| UC4 | Array-based looping |
+| UC5 | Helper methods |
+| UC6 | Encapsulation of character patterns |
+| UC7 | Abstraction and modular design |
+| UC8 | Map-based scalable architecture |
 
-Java
+Important: Use cases must be implemented strictly in order.
 
-IntelliJ IDEA
+---
 
-Git
+## GitFlow Process (Mandatory)
 
-GitFlow
+Each use case follows the same GitFlow workflow.
 
-GitHub
+### Step A: Implement Code
+- Write code inside OOPSBannerApp
+- Complete the current use case logic
+- Refactor existing code for the next use case
 
-🚀 Use Case Progression (UC1 → UC8)
-
-The application is implemented sequentially, where each use case refactors the same codebase.
-
-Use Case	Description
-UC1	Basic console output of “OOPS”
-UC2	Banner rendering logic introduced
-UC3	String joining and formatting
-UC4	Array-based looping
-UC5	Helper methods for reuse
-UC6	Encapsulation of character patterns
-UC7	Abstraction and modular rendering
-UC8	Map-based scalable architecture
-
-⚠️ Important Rule
-You must complete UC1 → UC8 in order.
-No skipping or parallel implementations.
-
-🔁 Mandatory GitFlow Process
-
-For EVERY use case, the following steps must be followed exactly.
-
-✅ Step A: Implement Code
-
-Write code only inside OOPSBannerApp
-
-Implement the current UC logic
-
-Refactor existing code where required
-
-✅ Step B: GitFlow Commands
+### Step B: GitFlow Commands
+```bash
 git flow init
 
 git flow feature start UC1-printOOPS
@@ -70,258 +63,3 @@ git flow feature publish UC1-printOOPS
 git flow feature finish UC1-printOOPS
 
 git push origin develop
-
-
-🔁 Repeat the same steps for UC2 → UC8, changing only the feature branch name.
-
-📌 Feature Branch Naming Convention
-
-UC1-printOOPS
-
-UC2-renderBanner
-
-UC3-stringJoin
-
-UC4-arrayLoop
-
-UC5-helperMethods
-
-UC6-encapsulation
-
-UC7-abstraction
-
-UC8-mapFunction
-
-✅ Step C: Refactor for Next UC
-
-After finishing one UC, refactor the same code
-
-Implement the next UC logic
-
-Do not create a new application
-
-Repeat GitFlow steps until UC8
-
-🌿 Branch Rules (Strictly Enforced)
-
-At the end of the assignment, the repository must contain ONLY TWO BRANCHES:
-
-1️⃣ main Branch
-
-Contains ONLY:
-
-README.md
-
-❌ No Java source code
-
-❌ No commits other than README
-
-2️⃣ develop Branch
-
-Contains ALL application code
-
-Reflects the FINAL UC8 implementation
-
-Last visible logic must be UC8
-
-All feature branches must be merged into develop
-
-🧾 Commit Guidelines
-
-One feature branch per use case
-
-No direct commits to main or develop
-
-Clear and meaningful commit messages
-
-Commit history must match the provided reference
-
-Each UC must have its own clean lifecycle:
-
-start → publish → finish → merge
-
-🧠 OOPS Concepts Demonstrated
-
-Encapsulation
-
-Abstraction
-
-Modularity
-
-DRY Principle
-
-Single Responsibility Principle
-
-Separation of Concerns
-
-✨ Final Outcome
-
-By UC8, the OOPS Banner App achieves a clean, scalable, and modular design while producing the same console output as UC1.
-
-This project showcases:
-
-Proper OOPS evolution
-
-Disciplined refactoring
-
-Professional GitFlow usage
-
-Industry-ready code organization
-
-If you want, next I can:
-
-✅ Design exact UC1 → UC8 Java code
-
-✅ Give sample commit messages
-
-✅ Verify your GitHub branch structure
-
-✅ Help you fix a wrong GitFlow history
-
-Just tell me 🔥
-
-i need for a github readme
-
-Perfect — here’s a clean, professional, GitHub-ready README.md you can directly paste into your repository.
-It strictly follows console-only, UC1 → UC8, and GitFlow rules 👌
-
-🎯 OOPS Banner App
-📌 Overview
-
-The OOPS Banner App is a console-based Java application developed to demonstrate the progressive application of Object-Oriented Programming (OOPS) principles through controlled refactoring.
-
-The application renders the word “OOPS” as an ASCII banner.
-Each use case (UC1 → UC8) enhances the internal design while maintaining identical console output, ensuring a clear evolution from basic logic to a scalable, modular architecture.
-
-🎯 Objectives
-
-Build a pure console-based Java application
-
-Render an ASCII banner for the word OOPS
-
-Apply OOPS principles incrementally
-
-Refactor the same codebase across multiple use cases
-
-Maintain clean, industry-standard GitFlow
-
-Preserve a clear and traceable commit history
-
-🛠️ Technologies Used
-
-Java
-
-IntelliJ IDEA
-
-Git
-
-GitFlow
-
-GitHub
-
-🚀 Use Case Progression (UC1 → UC8)
-
-The application is implemented sequentially, with each use case refactoring the previous one.
-
-Use Case	Description
-UC1	Basic console output
-UC2	Banner rendering logic
-UC3	String joining and formatting
-UC4	Array-based looping
-UC5	Helper methods
-UC6	Encapsulation of character patterns
-UC7	Abstraction and modular design
-UC8	Map-based scalable architecture
-
-⚠️ Important
-Use cases must be implemented strictly in order.
-
-🔁 GitFlow Process (Mandatory)
-
-Each use case follows the same GitFlow lifecycle.
-
-Step A: Implement Code
-
-Write code inside OOPSBannerApp
-
-Complete the current UC logic
-
-Refactor existing code for the next UC
-
-Step B: GitFlow Commands
-git flow init
-
-git flow feature start UC1-printOOPS
-git flow feature publish UC1-printOOPS
-git flow feature finish UC1-printOOPS
-
-git push origin develop
-
-
-Repeat the same steps for UC2 → UC8, changing only the feature branch name.
-
-Feature Branch Naming Convention
-
-UC1-printOOPS
-
-UC2-renderBanner
-
-UC3-stringJoin
-
-UC4-arrayLoop
-
-UC5-helperMethods
-
-UC6-encapsulation
-
-UC7-abstraction
-
-UC8-mapFunction
-
-🌿 Branch Rules (Strict)
-
-At the end of the assignment, the repository must contain ONLY TWO BRANCHES:
-
-main Branch
-
-Contains ONLY README.md
-
-❌ No Java source code
-
-develop Branch
-
-Contains ALL application source code
-
-Reflects the final UC8 implementation
-
-All feature branches are merged here
-
-🧾 Commit Guidelines
-
-One feature branch per use case
-
-No direct commits to main or develop
-
-Clear and meaningful commit messages
-
-Commit history must reflect UC-wise progression
-
-🧠 OOPS Concepts Demonstrated
-
-Encapsulation
-
-Abstraction
-
-Modularity
-
-DRY Principle
-
-Single Responsibility Principle
-
-Separation of Concerns
-
-✅ Final Outcome
-
-The OOPS Banner App successfully demonstrates the evolution of code quality using OOPS principles while preserving the same console output across all use cases.
-
-The final UC8 implementation delivers a clean, scalable, and maintainable design, aligned with industry-standard GitFlow practices.
